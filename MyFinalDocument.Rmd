@@ -1,0 +1,44 @@
+---
+title: "Graded Project"
+author: "Felice Rando"
+date: "2024-11-05"
+
+output: 
+  html_document:
+    theme: flatly
+    toc: yes
+    toc_float:
+      collapsed: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Summary
+
+here is a document showing a bulleted list, the first six rows of the cars dataset and a plot of the pressure dataset, all with a super fancy flatly theme
+
+## Bullet points 
+
+* 1
+* 2
+* 3
+
+
+## Cars Dataset
+
+The top 6 rows of the Cars dataset
+
+```{r cars}
+head(cars)
+```
+
+## Pressure Plot
+
+A plot of the Pressure dataset
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
